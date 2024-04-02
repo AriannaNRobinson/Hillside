@@ -4865,4 +4865,91 @@ a:hover {
 	.boxes {
 		margin: 30px 0px;
 	}
+	.sides-grid {
+		display: block !important;
+		margin: 30px 0px;
+	}
+	.side {
+		margin: 30px 0px;
+	}
+}
+
+.sides-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+}
+.side {
+	border-left: 2px rgb(139, 48, 32) solid;
+	border-radius: 15px;
+	padding: 10px 20px;
+}
+
+.side-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.side-name {
+	font-weight: bold;
+}
+
+.side-price {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.side-info {
+	font-style: italic;
+}
+
+.fries {
+	text-align: right;
+}
+
+#footer {
+	background-color: rgb(139, 48, 32);
+}
+
+#footer section h3,
+#footer section p,
+#footer section a {
+	color: white;
+}
+
+#footer form label {
+	color: white;
+}
+
+#footer form input,
+#footer form textarea {
+	background-color: rgb(219, 211, 211);
+
+}
+
+#footer input[type="text"]:focus {
+	border-color: black;
+}
+
+#footer input, #footer select, #footer textarea {
+    color: black;
+}
+#footer textarea:focus {
+	border-color: black;
+}
+
+.actions {
+	color: white;
+}
+
+#footer input[type="submit"] {
+	color: white !important;
+	background-color: transparent;
+    box-shadow: inset 0 0 0 2px white;
+}
+
+#footer input[type="submit"]:hover {
+	color: black !important;
+	background-color: transparent;
+    box-shadow: inset 0 0 0 2px black;
 }
