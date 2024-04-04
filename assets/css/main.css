@@ -4953,3 +4953,40 @@ a:hover {
 	background-color: transparent;
     box-shadow: inset 0 0 0 2px black;
 }
+
+#small-logo {
+	width: 170px;
+	margin-bottom: 20px;
+}
+
+/* #small-logo:hover {
+	width: 165px !important;
+	cursor: pointer !important;
+	z-index: 1;
+} */
+
+#header {
+	height: 350px;
+}
+
+/* #header .logo {
+	font-size: 1.5rem;
+	padding: .75 rem 1.5 rem;
+	margin: 0px;
+} */
+
+@media screen and (min-width: 981px) {
+	#header {
+		height: 600px;
+	}
+	#small-logo {
+		width: 300px;
+		margin-bottom: 40px;
+	}
+}
+
+
+#pepper {
+	width: 15px;
+	margin-left: 4px;
+}
